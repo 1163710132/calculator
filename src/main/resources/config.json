@@ -1,0 +1,136 @@
+{
+    "packages" : [
+        {
+            "namespace": "com.chen1144.calculator.plugin",
+            "classes": [
+                "base.BasePackage",
+                "rational.RationalNumberPackage",
+                "pair.PairPackage",
+                "basefunc.BaseFuncPackage"
+            ]
+        }
+    ],
+    "layout": {
+        "size":{
+            "width": 512,
+            "height": 768
+        },
+        "resultSize":{
+            "height": 128
+        },
+        "inputLayout": {
+            "rowCount": 5,
+            "columnCount": 4,
+            "defaultButton": {
+                "column": 0,
+                "row": 0,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "keyCode": "null",
+                "color": [255, 255, 255]
+            },
+            "buttons": [
+                {
+                    "column": 0,
+                    "row": 0,
+                    "keyCode": "CE"
+                },
+                {
+                    "column": 0,
+                    "row": 1,
+                    "keyCode": "7"
+                },
+                {
+                    "column": 0,
+                    "row": 2,
+                    "keyCode": "4"
+                },
+                {
+                    "column": 0,
+                    "row": 3,
+                    "keyCode": "1"
+                },
+                {
+                    "column": 0,
+                    "row": 4,
+                    "keyCode": "DEL"
+                },
+                {
+                    "column": 1,
+                    "row": 0,
+                    "keyCode": "²"
+                },
+                {
+                    "column": 1,
+                    "row": 1,
+                    "keyCode": "8"
+                },
+                {
+                    "column": 1,
+                    "row": 2,
+                    "keyCode": "5"
+                },
+                {
+                    "column": 1,
+                    "row": 3,
+                    "keyCode": "2"
+                },
+                {
+                    "column": 1,
+                    "row": 4,
+                    "keyCode": "0"
+                },
+                {
+                    "column": 2,
+                    "row": 0,
+                    "keyCode": "^"
+                },
+                {
+                    "column": 2,
+                    "row": 1,
+                    "keyCode": "9"
+                },
+                {
+                    "column": 2,
+                    "row": 2,
+                    "keyCode": "6"
+                },
+                {
+                    "column": 2,
+                    "row": 3,
+                    "keyCode": "3"
+                },
+                {
+                    "column": 2,
+                    "row": 4,
+                    "keyCode": "."
+                },
+                {
+                    "column": 3,
+                    "row": 0,
+                    "keyCode": "/"
+                },
+                {
+                    "column": 3,
+                    "row": 1,
+                    "keyCode": "*"
+                },
+                {
+                    "column": 3,
+                    "row": 2,
+                    "keyCode": "-"
+                },
+                {
+                    "column": 3,
+                    "row": 3,
+                    "keyCode": "+"
+                },
+                {
+                    "column": 3,
+                    "row": 4,
+                    "keyCode": "OK"
+                }
+            ]
+        }
+    }
+}

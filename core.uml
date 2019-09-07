@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.chen1144.calculator.core</OriginalElement>
+  <nodes>
+    <node x="227.0" y="641.0">com.chen1144.calculator.core.context.Tokenizer.TokenizeResult</node>
+    <node x="156.62499999999997" y="0.0">com.chen1144.calculator.core.NumberOrOp</node>
+    <node x="193.12499999999997" y="164.0">com.chen1144.calculator.core.ForwardConverter</node>
+    <node x="462.0" y="323.0">com.chen1144.calculator.core.context.PackageSet</node>
+    <node x="137.0" y="323.0">com.chen1144.calculator.core.context.CalculateContext</node>
+    <node x="0.0" y="246.0">com.chen1144.calculator.core.util.CompressedForwardConverter</node>
+    <node x="611.0" y="323.0">com.chen1144.calculator.core.context.Parser</node>
+    <node x="0.0" y="323.0">com.chen1144.calculator.core.context.Tokenizer</node>
+    <node x="325.0" y="323.0">com.chen1144.calculator.core.context.Evaluator</node>
+    <node x="321.62499999999994" y="0.0">com.chen1144.calculator.core.CaptureOperator</node>
+    <node x="464.0" y="564.0">com.chen1144.calculator.core.util.CompositedSession</node>
+    <node x="139.25" y="482.0">com.chen1144.calculator.core.CalculateRule</node>
+    <node x="426.0" y="641.0">com.chen1144.calculator.core.Expression</node>
+    <node x="323.5" y="405.0">com.chen1144.calculator.core.Calculator</node>
+    <node x="505.5" y="482.0">com.chen1144.calculator.core.context.Tokenizer.Session</node>
+    <node x="139.87499999999997" y="82.0">com.chen1144.calculator.core.Number</node>
+    <node x="0.0" y="641.0">com.chen1144.calculator.core.util.NumberConverters</node>
+    <node x="0.0" y="564.0">com.chen1144.calculator.core.util.AbstractCalculateRule</node>
+    <node x="694.625" y="0.0">com.chen1144.calculator.core.CalculateOperator</node>
+    <node x="35.12499999999994" y="164.0">com.chen1144.calculator.core.NumberType</node>
+    <node x="222.0" y="564.0">com.chen1144.calculator.core.util.DerivedCalculateRule</node>
+    <node x="510.62499999999994" y="0.0">com.chen1144.calculator.core.DisplayOperator</node>
+    <node x="480.0" y="82.0">com.chen1144.calculator.core.Operator</node>
+    <node x="306.24999999999994" y="246.0">com.chen1144.calculator.core.util.SelfConverter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chen1144.calculator.core.util.AbstractCalculateRule" target="com.chen1144.calculator.core.CalculateRule">
+      <point x="0.0" y="-16.0" />
+      <point x="101.0" y="539.0" />
+      <point x="175.0" y="539.0" />
+      <point x="-35.75" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.SelfConverter" target="com.chen1144.calculator.core.Number">
+      <point x="36.25000000000001" y="-16.0" />
+      <point x="415.0" y="221.0" />
+      <point x="406.12499999999994" y="221.0" />
+      <point x="406.12499999999994" y="134.0" />
+      <point x="232.62499999999997" y="134.0" />
+      <point x="39.75" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.CompressedForwardConverter" target="com.chen1144.calculator.core.Number">
+      <point x="-65.5" y="-16.0" />
+      <point x="65.5" y="221.0" />
+      <point x="24.625" y="221.0" />
+      <point x="24.625" y="134.0" />
+      <point x="153.12499999999997" y="134.0" />
+      <point x="-39.75" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.NumberType" target="com.chen1144.calculator.core.Number">
+      <point x="0.0" y="-16.0" />
+      <point x="104.12499999999994" y="144.0" />
+      <point x="179.62499999999997" y="144.0" />
+      <point x="-13.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.DerivedCalculateRule" target="com.chen1144.calculator.core.CalculateRule">
+      <point x="0.0" y="-16.0" />
+      <point x="320.5" y="539.0" />
+      <point x="246.5" y="539.0" />
+      <point x="35.75" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Calculator" target="com.chen1144.calculator.core.context.PackageSet">
+      <point x="24.0" y="-16.0" />
+      <point x="407.5" y="375.0" />
+      <point x="526.5" y="375.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Calculator" target="com.chen1144.calculator.core.context.Parser">
+      <point x="48.0" y="-16.0" />
+      <point x="431.5" y="385.0" />
+      <point x="658.0" y="385.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.CompressedForwardConverter" target="com.chen1144.calculator.core.ForwardConverter">
+      <point x="65.5" y="-16.0" />
+      <point x="196.5" y="221.0" />
+      <point x="237.37499999999997" y="221.0" />
+      <point x="-44.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Calculator" target="com.chen1144.calculator.core.context.Tokenizer">
+      <point x="-48.0" y="-16.0" />
+      <point x="335.5" y="385.0" />
+      <point x="58.5" y="385.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Operator" target="com.chen1144.calculator.core.CaptureOperator">
+      <point x="-14.25" y="-16.0" />
+      <point x="522.75" y="52.0" />
+      <point x="406.12499999999994" y="52.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Operator" target="com.chen1144.calculator.core.DisplayOperator">
+      <point x="14.25" y="-16.0" />
+      <point x="551.25" y="52.0" />
+      <point x="592.625" y="52.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Number" target="com.chen1144.calculator.core.NumberOrOp">
+      <point x="0.0" y="-16.0" />
+      <point x="-36.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Operator" target="com.chen1144.calculator.core.NumberOrOp">
+      <point x="-42.75" y="-16.0" />
+      <point x="494.25" y="62.0" />
+      <point x="265.375" y="62.0" />
+      <point x="36.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.CompositedSession" target="com.chen1144.calculator.core.context.Tokenizer.Session">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Calculator" target="com.chen1144.calculator.core.context.CalculateContext">
+      <point x="-24.0" y="-16.0" />
+      <point x="359.5" y="375.0" />
+      <point x="221.0" y="375.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.ForwardConverter" target="com.chen1144.calculator.core.Number">
+      <point x="0.0" y="-16.0" />
+      <point x="281.625" y="144.0" />
+      <point x="206.12499999999997" y="144.0" />
+      <point x="13.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.util.SelfConverter" target="com.chen1144.calculator.core.ForwardConverter">
+      <point x="-36.25" y="-16.0" />
+      <point x="342.49999999999994" y="221.0" />
+      <point x="325.875" y="221.0" />
+      <point x="44.25" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Calculator" target="com.chen1144.calculator.core.context.Evaluator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.chen1144.calculator.core.Operator" target="com.chen1144.calculator.core.CalculateOperator">
+      <point x="42.75" y="-16.0" />
+      <point x="579.75" y="62.0" />
+      <point x="783.125" y="62.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="485.93123543123545" y="340.3846153846153" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
